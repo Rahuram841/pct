@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+       
+      <link rel="stylesheet" href="style.css">
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    </head>
+    <body>
+        <div>
+            <nav class="navbar target" style="gap: 5px;">
+                
+                <a href="#" class="navbar-link">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="navbar-link">
+                    <i class="fas fa-book"></i>
+                    <span>Articles</span>
+                </a>
+                <a href="#" class="navbar-link">
+                    <i class="fas fa-city"></i>
+                    <span>Profession</span>
+                </a>
+                <a href="#" class="navbar-link">
+                    <i class="fas fa-blender-phone"></i>
+                    <span>Contact</span>
+                </a>
+            </nav>
+            <div class="menu target"></div>
+            <div class="table_container">
+    
+                <div class="card">
+                    
+                  <div class="card__body">
+                    <div class="anim">
+                    <img src= "genie.png" style="align-items:left">
+                    </div>
+                    <div class="card__content">
+                    
+                    <h2 class="card__title">Life is 10% what happens to us and 90% how we react to it.</h2>
+                    <p class="card__text"></p>
+                      
+                  </div>
+                     </div>
+                  <img src="lamp.png" class="card__image"/>
+               </div>
+                  </div>
+            <div class="container">
+                <h2>Freelance works payment details </h2>
+                <ul class="responsive-table">
+                  <li class="table-header">
+                    <div class="col col-1">Job Id</div>
+                    <div class="col col-2">Customer Name</div>
+                    <div class="col col-3">Amount Due</div>
+                    <div class="col col-4">Payment Status</div>
+                  </li>
+                  <li class="table-row">
+                    <div class="col col-1" data-label="Job Id">42235</div>
+                    <div class="col col-2" data-label="Customer Name">John Doe</div>
+                    <div class="col col-3" data-label="Amount">$350</div>
+                    <div class="col col-4" data-label="Payment Status">Pending</div>
+                  </li>
+                  <li class="table-row">
+                    <div class="col col-1" data-label="Job Id">42442</div>
+                    <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
+                    <div class="col col-3" data-label="Amount">$220</div>
+                    <div class="col col-4" data-label="Payment Status">Pending</div>
+                  </li>
+                  <li class="table-row">
+                    <div class="col col-1" data-label="Job Id">42257</div>
+                    <div class="col col-2" data-label="Customer Name">John Smith</div>
+                    <div class="col col-3" data-label="Amount">$341</div>
+                    <div class="col col-4" data-label="Payment Status">Pending</div>
+                  </li>
+                  <li class="table-row">
+                    <div class="col col-1" data-label="Job Id">42311</div>
+                    <div class="col col-2" data-label="Customer Name">John Carpenter</div>
+                    <div class="col col-3" data-label="Amount">$115</div>
+                    <div class="col col-4" data-label="Payment Status">Pending</div>
+                  </li>
+                </ul>
+              </div>
+              <section class="section-4" id="contact">
+                <div class="title" style="margin-top:10rem;">
+                  <h2>CON<span>TACT</span></h2>
+                  <div class="underline" style="margin-top: 1rem;margin-bottom: 1px;"></div>
+                </div>
+                <div class="form-container" style="margin-top: 10rem;">
+                    <div class="form-img">
+                      
+                     <div class="contact-details">
+                        <div class="phone">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Phone</h3>
+                            <p style="font-size:0.9rem;"> 6380788874 </p>
+                            <p>9442689021</p>
+                        </div>
+                        <div class="address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Address</h3>
+                            <p>14 H, Vasantha Nagar
+                              </p>
+                            <p>Periyasemur
+                            </p>
+                            <p>Erode</p>
+                            <p>
+                              638004</p>
+                            <p>Tamil Nadu</p>
+                            <p>India</p>
+                        </div>
+                        <div class="email">
+                            <i class="far fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p style="font-family: Arial, Helvetica, sans-serif ;"> rahuramrt@gmail.com
+                            </p>
+                            
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                
+              </section>  
+            <style> 
+           
+ 
+        
+
+    
+            </style>
+        </div>
+    <script>
+        document.querySelector('.menu').addEventListener('click', () => {
+	document.querySelectorAll('.target').forEach((item) => {
+		item.classList.toggle('change');
+	})
+})
+    </script>
+    </body>
+</html>
